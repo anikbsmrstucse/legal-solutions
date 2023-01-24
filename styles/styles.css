@@ -1,0 +1,86 @@
+/* font family */
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins&display=swap");
+
+/* utilits */
+:root {
+    --primary-font:'EB Garamond', serif;
+    --secondary-font:'Poppins', sans-serif;
+
+}
+
+
+* {
+    
+}
+
+.primary-font {
+    font-family: var(--primary-font) !important;
+}
+.secondary-font {
+    font-family: var(--secondary-font) !important;
+}
+.pe-6{
+    padding-right: 3.5rem;
+}
+.pe-7 {
+    padding-right: 4rem;
+}
+.pe-8 {
+    padding-right: 4.5rem;
+}
+.pe-9 {
+    padding-right: 5rem;
+}
+.pe-10 {
+    padding-right: 6rem;
+}
+.pe-xxl {
+    padding-right: 18rem;
+}
+/* banner-image */
+
+.banner-img {
+    background-image: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.8)),url('../images/banner.png');
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* card styles */
+.card-bg-color{
+    background-image: linear-gradient(rgba(243, 243, 243,1),rgba(243, 243, 243,0));
+}
+
+/* carsoual styles */
+.carsol-banner-img-1 {
+    background-image: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.8)), url('../images/carusoual.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: cover;
+}
+.carsol-banner-img-2 {
+    background-image: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.8)), url('../images/carusoual-01.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: cover;
+}
+.carsol-banner-img-3 {
+    background-image: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.8)), url('../images/carusoual-02.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: cover;
+}
+
+
+
+
+
+/* external media query */
+@media screen and (max-width: 576px) {
+    .pe-xxl {
+        padding-right: 0;
+    }
+}
